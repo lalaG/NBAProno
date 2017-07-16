@@ -1,0 +1,16 @@
+{
+    "defaultSeverity": "default",
+    "extends": "tslint:latest",
+    "jsRules": {},
+    "rules": {
+        "member-access": false,
+        "object-literal-sort-keys": false,
+        "trailing-comma": [
+        true, {
+            "multiline": "never",
+            "singleline": "never"
+        }
+        ]
+    },
+    "rulesDirectory": []
+}
